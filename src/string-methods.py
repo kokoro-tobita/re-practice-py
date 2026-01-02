@@ -1,0 +1,21 @@
+s = "My name is Mike. Hi Mike."
+print(s.startswith("My"))
+print(s.endswith("Mike."))
+print(s.find("Mike"))
+print(s.rfind("Mike"))
+print(s.count("Mike"))
+print(s.replace("Mike", "Nancy"))
+
+print("--------------------------------")
+
+print(s.capitalize())
+print(s.title())
+print(s.upper())
+print(s.lower())
+print(s.swapcase())
+print(s.strip())
+print(s.lstrip())
+print(s.rstrip())
+print(s.center(50))
+print(s.ljust(50))
+print(s.rjust(50))
